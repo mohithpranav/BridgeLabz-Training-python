@@ -21,4 +21,7 @@ elif option ==2:
     print("Option : Sanke bitten and moves back")
     player_position -= dice
     
+if player_position < 0: 
+    player_position = 0
+    
 print(f"Player current position: {player_position}")
