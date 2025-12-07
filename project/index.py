@@ -1,1 +1,1 @@
-print("Hello from index.py")
+print("=== Snake & Ladder Game ===")
